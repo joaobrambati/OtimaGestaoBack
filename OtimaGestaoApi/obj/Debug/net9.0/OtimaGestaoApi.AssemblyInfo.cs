@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OtimaGestaoApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e4a7be119dd1bb94a3d0d4ad0fbe1f650104e6f3")]
 [assembly: System.Reflection.AssemblyProductAttribute("OtimaGestaoApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OtimaGestaoApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
