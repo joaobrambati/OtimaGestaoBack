@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\joao.brambati\\Desktop\\OtimaGestaoBack\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{29E246E3-F080-47A5-9664-8825B4F65A99}|Application\\Application.csproj|c:\\users\\joao.brambati\\desktop\\otimagestaoback\\application\\common\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29E246E3-F080-47A5-9664-8825B4F65A99}|Application\\Application.csproj|solutionrelative:application\\common\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{73102CDD-DFBA-4CF7-94C8-7FB9F2753A98}|OtimaGestaoApi\\OtimaGestaoApi.csproj|c:\\users\\joao.brambati\\desktop\\otimagestaoback\\otimagestaoapi\\otimagestaoapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{73102CDD-DFBA-4CF7-94C8-7FB9F2753A98}|OtimaGestaoApi\\OtimaGestaoApi.csproj|solutionrelative:otimagestaoapi\\otimagestaoapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -13,18 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{29E246E3-F080-47A5-9664-8825B4F65A99}|Application\\Application.csproj|c:\\users\\joao.brambati\\desktop\\otimagestaoback\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{29E246E3-F080-47A5-9664-8825B4F65A99}|Application\\Application.csproj|solutionrelative:application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77E07F6E-5081-44CC-ABA0-C26A60B9A88B}|Infrastructure\\Infrastructure.csproj|c:\\users\\joao.brambati\\desktop\\otimagestaoback\\infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77E07F6E-5081-44CC-ABA0-C26A60B9A88B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29E246E3-F080-47A5-9664-8825B4F65A99}|Application\\Application.csproj|c:\\users\\joao.brambati\\desktop\\otimagestaoback\\application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29E246E3-F080-47A5-9664-8825B4F65A99}|Application\\Application.csproj|solutionrelative:application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAA3101C-AD31-4DF2-9B90-C6E95D19BED1}|Domain\\Domain.csproj|c:\\users\\joao.brambati\\desktop\\otimagestaoback\\domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAA3101C-AD31-4DF2-9B90-C6E95D19BED1}|Domain\\Domain.csproj|solutionrelative:domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,6 +35,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Response.cs",
+              "DocumentMoniker": "C:\\Users\\joao.brambati\\Desktop\\OtimaGestaoBack\\Application\\Common\\Response.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\Response.cs",
+              "ToolTip": "C:\\Users\\joao.brambati\\Desktop\\OtimaGestaoBack\\Application\\Common\\Response.cs",
+              "RelativeToolTip": "Application\\Common\\Response.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T15:36:51.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "OtimaGestaoApi.csproj",
               "DocumentMoniker": "C:\\Users\\joao.brambati\\Desktop\\OtimaGestaoBack\\OtimaGestaoApi\\OtimaGestaoApi.csproj",
               "RelativeDocumentMoniker": "OtimaGestaoApi\\OtimaGestaoApi.csproj",
@@ -55,7 +60,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Infrastructure.csproj",
               "DocumentMoniker": "C:\\Users\\joao.brambati\\Desktop\\OtimaGestaoBack\\Infrastructure\\Infrastructure.csproj",
               "RelativeDocumentMoniker": "Infrastructure\\Infrastructure.csproj",
@@ -67,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Application.csproj",
               "DocumentMoniker": "C:\\Users\\joao.brambati\\Desktop\\OtimaGestaoBack\\Application\\Application.csproj",
               "RelativeDocumentMoniker": "Application\\Application.csproj",
@@ -76,42 +81,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-03-05T15:10:29.706Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\joao.brambati\\Desktop\\OtimaGestaoBack\\Infrastructure\\Class1.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Class1.cs",
-              "ToolTip": "C:\\Users\\joao.brambati\\Desktop\\OtimaGestaoBack\\Infrastructure\\Class1.cs",
-              "RelativeToolTip": "Infrastructure\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T15:10:20.594Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\joao.brambati\\Desktop\\OtimaGestaoBack\\Application\\Class1.cs",
-              "RelativeDocumentMoniker": "Application\\Class1.cs",
-              "ToolTip": "C:\\Users\\joao.brambati\\Desktop\\OtimaGestaoBack\\Application\\Class1.cs",
-              "RelativeToolTip": "Application\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T15:09:48.176Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\joao.brambati\\Desktop\\OtimaGestaoBack\\Domain\\Class1.cs",
-              "RelativeDocumentMoniker": "Domain\\Class1.cs",
-              "ToolTip": "C:\\Users\\joao.brambati\\Desktop\\OtimaGestaoBack\\Domain\\Class1.cs",
-              "RelativeToolTip": "Domain\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T15:09:06.693Z"
             }
           ]
         }
