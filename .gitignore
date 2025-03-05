@@ -41,6 +41,17 @@
 *.bsc
 *.exp
 *.idb
+# Ignore build output directories
+/bin/
+/obj/
+
+# Ignore .vs folder (Visual Studio settings)
+.vs/
+
+# Ignore Visual Studio config files
+*.user
+*.suo
+
 
 ## Ignora todos os arquivos da pasta Log
 Logs/*
