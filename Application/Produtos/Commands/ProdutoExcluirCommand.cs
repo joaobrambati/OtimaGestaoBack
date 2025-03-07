@@ -1,0 +1,45 @@
+﻿using Application.Common;
+using Domain.Entities;
+using Infrastructure.Context;
+using MediatR;
+using Microsoft.EntityFrameworkCore;
+
+namespace Application.Produtos.Commands;
+
+public class ProdutoExcluirCommand : IRequest<Response<bool>>
+{
+    public int Id { get; set; }
+}
+
+public class ProdutoExcluirCommandHandler : IRequestHandler<ProdutoExcluirCommand, Response<bool>>
+{
+    private readonly DataContext _context;
+
+    public ProdutoExcluirCommandHandler(DataContext context)
+    {
+        _context = context;
+    }
+
+    public async Task<Response<bool>> Handle(ProdutoExcluirCommand request, CancellationToken cancellationToken)
+    {
+        try
+        {
+            var produto = await _context.Produtos.FindAsync(request.Id);
+
+            if (produto is null)
+                return new Response<bool> { Data = false, Status = false, Message = "Produto não encontrado" };
+
+            _context.Produtos.Remove(produto);
+            await _context.SaveChangesAsync(cancellationToken);
+
+            return new Response<bool> { Data = true, Status = true, Message = "Produto excluído com sucesso" };
+
+        }
+        catch (Exception ex)
+        {
+            return new Response<bool> { Status = false, Message = ex.Message }; 
+        }
+    }
+
+}
+

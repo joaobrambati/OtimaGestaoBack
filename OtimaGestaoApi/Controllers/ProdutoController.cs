@@ -1,5 +1,6 @@
 ﻿
 
+using Application.Produtos.Commands;
 using Application.Produtos.Queries;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -17,10 +18,22 @@ public class ProdutoController : ControllerBase
         _mediator = mediator;
     }
 
-    [HttpPost]
+    [HttpPost("obterTodos")]
     public async Task<IActionResult> Obter()
     {
         return Ok(await _mediator.Send(new ProdutoObterQuery { }));
+    }
+
+    [HttpPost("excluir")]
+    public async Task<IActionResult> Excluir(ProdutoExcluirCommand command)
+    {
+        return Ok(await _mediator.Send(command));
+    }
+
+    [HttpPost("criar")]
+    public async Task<IActionResult> Criar(ProdutoCriarCommand command)
+    {
+        return Ok(await _mediator.Send(command));
     }
 
 }
