@@ -1,5 +1,4 @@
 ﻿using Application.Common;
-using Application.Produtos.DTO;
 using Infrastructure.Context;
 using MediatR;
 using Microsoft.EntityFrameworkCore;

@@ -1,9 +1,7 @@
 ﻿using Application.Common;
-using Application.Produtos.DTO;
 using Domain.Entities;
 using Infrastructure.Context;
 using MediatR;
-using Microsoft.EntityFrameworkCore;
 
 namespace Application.Produtos.Commands;
 
