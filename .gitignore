@@ -212,6 +212,11 @@ coverage*.info
 *.coverage
 *.coveragexml
 
+*.db-shm
+*.db-wal
+
+
+
 # NCrunch
 NCrunch*
 .crunch.local.xml

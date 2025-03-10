@@ -42,5 +42,11 @@ public class ProdutoController : ControllerBase
         return Ok(await _mediator.Send(command));
     }
 
+    [HttpPost("editar")]
+    public async Task<IActionResult> Editar(ProdutoEditarCommand command)
+    {
+        return Ok(await _mediator.Send(command));
+    }
+
 }
 
