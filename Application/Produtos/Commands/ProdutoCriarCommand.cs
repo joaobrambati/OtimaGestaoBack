@@ -35,7 +35,7 @@ public class ProdutoCriarCommandHandler : IRequestHandler<ProdutoCriarCommand, R
                 Descricao = request.Descricao,
                 Preco = request.Preco,
                 Estoque = request.Estoque,
-                DataCadastro = DateTime.UtcNow
+                DataCadastro = DateTime.Now
             };
 
             _context.Produtos.Add(produto);
