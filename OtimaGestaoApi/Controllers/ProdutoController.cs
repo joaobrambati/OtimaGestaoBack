@@ -24,6 +24,12 @@ public class ProdutoController : ControllerBase
         return Ok(await _mediator.Send(new ProdutoObterQuery { }));
     }
 
+    [HttpPost("obterPorId")]
+    public async Task<IActionResult> ObterPorId(ProdutoObterPorIdQuery query)
+    {
+        return Ok(await _mediator.Send(query));
+    }
+
     [HttpPost("excluir")]
     public async Task<IActionResult> Excluir(ProdutoExcluirCommand command)
     {
