@@ -37,9 +37,9 @@ public class ProdutoCriarCommandHandler : IRequestHandler<ProdutoCriarCommand, R
             };
 
             _context.Produtos.Add(produto);
-            var salvou = await _context.SaveChangesAsync(cancellationToken);
+            var criou = await _context.SaveChangesAsync(cancellationToken);
 
-            if (salvou > 0)
+            if (criou > 0)
                 return new Response<bool> { Data = true, Status = true, Message = "Produto criado com sucesso" };
 
             return new Response<bool> { Data = false, Status = false, Message = "Erro ao criar o produto" };

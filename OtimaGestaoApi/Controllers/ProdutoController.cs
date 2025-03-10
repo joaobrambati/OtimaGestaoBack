@@ -4,7 +4,6 @@ using Application.Produtos.Commands;
 using Application.Produtos.Queries;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace OtimaGestaoApi.Controllers;
 

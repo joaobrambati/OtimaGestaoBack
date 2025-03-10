@@ -28,9 +28,12 @@ public class ProdutoExcluirCommandHandler : IRequestHandler<ProdutoExcluirComman
                 return new Response<bool> { Data = false, Status = false, Message = "Produto não encontrado" };
 
             _context.Produtos.Remove(produto);
-            await _context.SaveChangesAsync(cancellationToken);
+            var excluiu = await _context.SaveChangesAsync(cancellationToken);
 
-            return new Response<bool> { Data = true, Status = true, Message = "Produto excluído com sucesso" };
+            if (excluiu > 0)
+                return new Response<bool> { Data = true, Status = true, Message = "Produto excluído com sucesso" };
+
+            return new Response<bool> { Data = false, Status = false, Message = "Erro ao excluir o produto" };
 
         }
         catch (Exception ex)
