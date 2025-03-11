@@ -40,5 +40,11 @@ namespace OtimaGestaoApi.Controllers
             return Ok(await _mediator.Send(command));
         }
 
+        [HttpPost("editar")]
+        public async Task<IActionResult> Editar(ClienteEditarCommand command)
+        {
+            return Ok(await _mediator.Send(command));
+        }
+
     }
 }

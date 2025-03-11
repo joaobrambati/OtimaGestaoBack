@@ -31,7 +31,7 @@ public class ProdutoEditarCommandHandler : IRequestHandler<ProdutoEditarCommand,
                 .FirstOrDefaultAsync(p => p.Id == request.Id);
 
             if (produto is null)
-                return new Response<bool> { Data = false ,Status = false, Message = "Produto não encontrado" };
+                return new Response<bool> { Data = false , Status = false, Message = "Produto não encontrado" };
 
             if (!string.IsNullOrWhiteSpace(request.Nome))
                 produto.Nome = request.Nome;
@@ -47,9 +47,9 @@ public class ProdutoEditarCommandHandler : IRequestHandler<ProdutoEditarCommand,
 
 
             _context.Produtos.Update(produto);
-            var atualizou = await _context.SaveChangesAsync(cancellationToken);
+            var editou = await _context.SaveChangesAsync(cancellationToken);
 
-            if (atualizou > 0)
+            if (editou > 0)
                 return new Response<bool> { Data = true, Status = true, Message = "Produto atualizado com sucesso" };
 
             return new Response<bool> { Data = false, Status = false, Message = "Erro ao atualizar o produto" };
